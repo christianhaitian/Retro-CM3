@@ -14,14 +14,14 @@ Updates, Changes, and Tweaks to the image include the following:
 
 #  Instructions
 -  Windows users:
-   -  Download the image from (PLACEHOLDER).        
+   -  Download the image from (https://mega.nz/#!TFBkiAaK!qZGZaBJGEhF1AHObyaEP_k2FQ_gwjXxrb-AfjZy4kNM).        
    -  Uncompress the image with 7zip (Can be downloaded from https://www.7-zip.org/download.html)
    -  Use a program such as Win32DiskImager (https://sourceforge.net/projects/win32diskimager/) or Etcher (https://www.balena.io/etcher/) to flash to a 8GB micro SD card or larger.
    -  Add the roms to their respective folders in the retropie/roms folder on the RETPIE fat32 partition.
    -  Insert into Retro CM3, boot, and enjoy!
 
 -  Linux users (Instructions are based on Ubuntu 16.04 as this is the Linux OS I use):
-   -  Download the image from (PLACEHOLDER).         
+   -  Download the image from (https://mega.nz/#!TFBkiAaK!qZGZaBJGEhF1AHObyaEP_k2FQ_gwjXxrb-AfjZy4kNM).         
    -  Uncompress the image with 7zip (From terminal, you can install this by doing sudo apt-get install p7zip-full p7zip-rar)   
    -  For those with Ubuntu based systems, you can use the Disks app to image to a 8GB micro SD card or larger.
    -  Add the roms to their respective folders in the retropie/roms folder on the RETPIE fat32 partition.
