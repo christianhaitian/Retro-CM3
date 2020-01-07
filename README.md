@@ -11,3 +11,18 @@ Updates, Changes, and Tweaks to the image include the following:
 -  Updated to RetroPie version 4.5.1
 -  Set default volume for Libretro Emulators to -45.0db.  (This should prevent the sudden loud sound when launching a rom in a Libretro (LR) based emulator)  Volume can be adjusted up or down by holding select and hitting Up or Down on the directional gamepad.
 -  Stability tweak for RTL8188CUE wireless chip.  (Disabled USB and wireless chip power saving in the 8192 driver which causes wifi drops on this chip.  From my personal testing and use, SSH sessions are much more stable now.)
+
+#  Instructions
+-  Windows users:
+   -  Download the image from (PLACEHOLDER).        
+   -  Uncompress the image with 7zip (Can be downloaded from https://www.7-zip.org/download.html)
+   -  Use a program such as Win32DiskImager (https://sourceforge.net/projects/win32diskimager/) or Etcher (https://www.balena.io/etcher/) to flash to a 8GB micro SD card or larger.
+   -  Add the roms to their respective folders in the retropie/roms folder on the RETPIE fat32 partition.
+   -  Insert into Retro CM3, boot, and enjoy!
+
+-  Linux users (Instructions are based on Ubuntu 16.04 as this is the Linux OS I use):
+   -  Download the image from (PLACEHOLDER).         
+   -  Uncompress the image with 7zip (From terminal, you can install this by doing sudo apt-get install p7zip-full p7zip-rar)   
+   -  For those with Ubuntu based systems, you can use the Disks app to image to a 8GB micro SD card or larger.
+   -  Add the roms to their respective folders in the retropie/roms folder on the RETPIE fat32 partition.
+   -  Insert into Retro CM3, boot, and enjoy!
