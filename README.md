@@ -12,6 +12,11 @@ Updates, Changes, and Tweaks to the image include the following:
 -  Set default volume for Libretro Emulators to -45.0db.  (This should prevent the sudden loud sound when launching a rom in a Libretro (LR) based emulator)  Volume can be adjusted up or down by holding select and hitting Up or Down on the directional gamepad.
 -  Stability tweak for RTL8188CUE wireless chip.  (Disabled USB and wireless chip power saving in the 8192 driver which causes wifi drops on this chip.  From my personal testing and use, SSH sessions are much more stable now.)
 
+Known Issues
+-  Updating RetroPie using the builtin Retropie script will break the Atari 5200 Libretro emulator.  This is an issue with the latest update available for Retropie as of 1/10/2020.
+-  Image does not include the separate CPS 1,2,and 3 EmulationStation setups.  They all just use the lr-fbneo emulator.
+-  lr-fbneo is not installed by default.  Can be installed through the Retropiesetup menu.  Will need to be connected to wifi for this to complete.
+
 #  Instructions
 -  Windows users:
    -  Download the image from (https://mega.nz/#!TFBkiAaK!qZGZaBJGEhF1AHObyaEP_k2FQ_gwjXxrb-AfjZy4kNM).        
