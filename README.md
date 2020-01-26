@@ -32,4 +32,4 @@ Known Issues
    -  Add the roms to their respective folders in the retropie/roms folder on the RETPIE fat32 partition.
    -  Insert into Retro CM3, boot, and enjoy!
 
-Interested in a RecalBox version instead?, download this image: https://mega.nz/#!qcQXVKgA!yL3dulin_ku2frebVYKVyzE5YVD70ZeHK61zWVwZc7Q.
+Interested in a RecalBox version instead?  Download this image: https://mega.nz/#!qcQXVKgA!yL3dulin_ku2frebVYKVyzE5YVD70ZeHK61zWVwZc7Q.
