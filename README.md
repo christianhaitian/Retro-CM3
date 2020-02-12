@@ -53,7 +53,7 @@ Under the Add PICO-8 to the Emulationstation menu section, es_systems.cfg is act
 </system>
 ``` 
 
-And loaded 3 custom scripts into /home/pi/pico-8 folder.  The purpose of each file is for different volume levels.  You can find the custom scripts in the releases section of this github. 
+And loaded 3 custom shell scripts (.sh files) into /home/pi/pico-8 folder.  The purpose of each file is for different volume levels.  You can find the custom scripts in the releases section of this github. 
 
 Enjoy!
  
