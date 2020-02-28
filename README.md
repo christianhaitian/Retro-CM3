@@ -57,6 +57,8 @@ Under the Add PICO-8 to the Emulationstation menu section, es_systems.cfg is act
 
 And loaded 3 custom shell scripts (.sh files) into /home/pi/pico-8 folder.  The purpose of each file is for different volume levels.  You can find the custom scripts in the releases section of this github. 
 
+The User Manual is available from the creator's google drive at https://drive.google.com/open?id=1vXOQh2Tf3WvNB2zH0UrLiWtqS37SApLm and also in this github (Retro-CM3 User manual - 副本.docx).
+
 Enjoy!
  
 
