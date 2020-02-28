@@ -11,7 +11,7 @@ Known Issues
 -  Updating RetroPie using the builtin Retropie script will break the Atari 5200 Libretro emulator.  This is an issue with the latest update available for Retropie as of 1/10/2020.
 -  Image does not include the separate CPS 1,2,and 3 EmulationStation setups.  They all just use the lr-fbneo emulator. (Fixed!)
 -  lr-fbneo is not installed by default.  Can be installed through the Retropie-setup menu.  Will need to be connected to wifi for this to complete. (Fixed!)
--  The auto resize function does not use all of the rest of the available space on the SD card so some space is wasted.  Can be easily reclaimed by using MiniTool Partition Wizard - Free Edition after the expansion process has completed (Hint: After first successful boot into emulationstation interface).
+-  The auto resize function does not use all of the rest of the available space on the SD card so some space is wasted.  Can be easily reclaimed by using MiniTool Partition Wizard - Free Edition after the expansion process has completed (Hint: After first successful boot into emulationstation interface).  If you have a way to improve this, please feel free to provide code or script suggestions.
 
 #  Instructions
 -  Windows users:
