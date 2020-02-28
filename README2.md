@@ -1,4 +1,4 @@
-2nd Release Updates
+2nd Release Updates (RCM3_02_28_20.7z is the correct filename for this release)
 In addition to 1st Release tweaks:
 
 -  Auto Resize fat32 partition to remaining space on SD card on first boot.  Unit will reboot once upon boot up to complete this.  You'll see command line first for a little bit and once the exapansion hs completed, unit will reboot and present a Donkey Kong welcome screen then go into Emulationstation interface.
@@ -15,13 +15,13 @@ Known Issues
 
 #  Instructions
 -  Windows users:
-   -  Download the image from (https://mega.nz/#!TFBkiAaK!qZGZaBJGEhF1AHObyaEP_k2FQ_gwjXxrb-AfjZy4kNM).        
+   -  Download the image from (https://mega.nz/#!6Exx3KxQ!_lUvmDBmij-S-CCtFUOg16-os0f4tB3Wc76pQxuvMwo).        
    -  Uncompress the image with 7zip (Can be downloaded from https://www.7-zip.org/download.html)
    -  Use a program such as Win32DiskImager (https://sourceforge.net/projects/win32diskimager/) or Etcher (https://www.balena.io/etcher/) to flash to a 8GB micro SD card or larger.
    -  Insert into Retro CM3, boot, wait for reboot (fat32 partition is being expanded), once in emulationstation, enjoy!
 
 -  Linux users (Instructions are based on Ubuntu 16.04 as this is the Linux OS I use):
-   -  Download the image from (https://mega.nz/#!TFBkiAaK!qZGZaBJGEhF1AHObyaEP_k2FQ_gwjXxrb-AfjZy4kNM).         
+   -  Download the image from (https://mega.nz/#!6Exx3KxQ!_lUvmDBmij-S-CCtFUOg16-os0f4tB3Wc76pQxuvMwo).         
    -  Uncompress the image with 7zip (From terminal, you can install this by doing sudo apt-get install p7zip-full p7zip-rar)   
    -  For those with Ubuntu based systems, you can use the Disks app to image to a 8GB micro SD card or larger.
    -  Insert into Retro CM3, boot, wait for reboot (fat32 partition is being expanded), once in emulationstation, enjoy!
