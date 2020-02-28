@@ -1,0 +1,71 @@
+<html><body>
+Like my work on this?  Want to say thank you?  Buy me a cup of tea.
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="XDSGLE5G3PDNC" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+<article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><p>2nd Release Updates (RCM3_02_28_20.7z is the correct filename for this release)
+In addition to 1st Release tweaks:</p>
+<ul>
+<li>Auto Resize fat32 partition to remaining space on SD card on first boot.  Unit will reboot once upon boot up to complete this.  You'll see command line first for a little bit and once the exapansion hs completed, unit will reboot and present a Donkey Kong welcome screen then go into Emulationstation interface.</li>
+<li>SSH, SFTP and Samba are disabled by default even after enabling wireless.  This is to secure the system when wifi is enabled for retroachievements.</li>
+<li>Added ability to Enable and Disable SSH and Samba services from Retropie menu.  Look for green thumbs up and red thumbs down.</li>
+<li>Added custom systam splash screens when launching roms in various emulators.  Thanks to ehettervik (<a href="https://github.com/ehettervik/es-runcommand-splash">https://github.com/ehettervik/es-runcommand-splash</a>)</li>
+<li>New Donkey Kong welcome splashscreen.  Thanks to carolinashakes (<a href="https://www.reddit.com/r/RetroPie/comments/405b6c/new_retropie_splash_screen_feel_free_to_use/" rel="nofollow">https://www.reddit.com/r/RetroPie/comments/405b6c/new_retropie_splash_screen_feel_free_to_use/</a>)</li>
+</ul>
+<p>Known Issues</p>
+<ul>
+<li>Updating RetroPie using the builtin Retropie script will break the Atari 5200 Libretro emulator.  This is an issue with the latest update available for Retropie as of 1/10/2020.</li>
+<li>Image does not include the separate CPS 1,2,and 3 EmulationStation setups.  They all just use the lr-fbneo emulator. (Fixed!)</li>
+<li>lr-fbneo is not installed by default.  Can be installed through the Retropie-setup menu.  Will need to be connected to wifi for this to complete. (Fixed!)</li>
+<li>The auto resize function does not use all of the rest of the available space on the SD card so some space is wasted.  Can be easily reclaimed by using MiniTool Partition Wizard - Free Edition after the expansion process has completed (Hint: After first successful boot into emulationstation interface).  If you have a way to improve this, please feel free to provide code or script suggestions.</li>
+</ul>
+<h1><a id="user-content-instructions" class="anchor" aria-hidden="true" href="#instructions"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Instructions</h1>
+<ul>
+<li>
+<p>Windows users:</p>
+<ul>
+<li>Download the image from (<a href="https://mega.nz/#!6Exx3KxQ!_lUvmDBmij-S-CCtFUOg16-os0f4tB3Wc76pQxuvMwo" rel="nofollow">https://mega.nz/#!6Exx3KxQ!_lUvmDBmij-S-CCtFUOg16-os0f4tB3Wc76pQxuvMwo</a>).</li>
+<li>Uncompress the image with 7zip (Can be downloaded from <a href="https://www.7-zip.org/download.html" rel="nofollow">https://www.7-zip.org/download.html</a>)</li>
+<li>Use a program such as Win32DiskImager (<a href="https://sourceforge.net/projects/win32diskimager/" rel="nofollow">https://sourceforge.net/projects/win32diskimager/</a>) or Etcher (<a href="https://www.balena.io/etcher/" rel="nofollow">https://www.balena.io/etcher/</a>) to flash to a 8GB micro SD card or larger.</li>
+<li>Insert into Retro CM3, boot, wait for reboot (fat32 partition is being expanded), once in emulationstation, enjoy!</li>
+</ul>
+</li>
+<li>
+<p>Linux users (Instructions are based on Ubuntu 16.04 as this is the Linux OS I use):</p>
+<ul>
+<li>Download the image from (<a href="https://mega.nz/#!6Exx3KxQ!_lUvmDBmij-S-CCtFUOg16-os0f4tB3Wc76pQxuvMwo" rel="nofollow">https://mega.nz/#!6Exx3KxQ!_lUvmDBmij-S-CCtFUOg16-os0f4tB3Wc76pQxuvMwo</a>).</li>
+<li>Uncompress the image with 7zip (From terminal, you can install this by doing sudo apt-get install p7zip-full p7zip-rar)</li>
+<li>For those with Ubuntu based systems, you can use the Disks app to image to a 8GB micro SD card or larger.</li>
+<li>Insert into Retro CM3, boot, wait for reboot (fat32 partition is being expanded), once in emulationstation, enjoy!</li>
+</ul>
+</li>
+</ul>
+<h1><a id="user-content-interested-in-a-recalbox-version-instead--download-this-image-httpsmeganzqcqxvkgayl3dulin_ku2frebvykvyze5yvd70zehk61zwvwzc7q" class="anchor" aria-hidden="true" href="#interested-in-a-recalbox-version-instead--download-this-image-httpsmeganzqcqxvkgayl3dulin_ku2frebvykvyze5yvd70zehk61zwvwzc7q"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Interested in a RecalBox version instead?  Download this image: <a href="https://mega.nz/#!qcQXVKgA!yL3dulin_ku2frebVYKVyzE5YVD70ZeHK61zWVwZc7Q" rel="nofollow">https://mega.nz/#!qcQXVKgA!yL3dulin_ku2frebVYKVyzE5YVD70ZeHK61zWVwZc7Q</a>.</h1>
+<h1><a id="user-content-want-to-get-pico-8-running-on-the-retro-cm3--follow-the-instructions-available-in-the-link-below-and-with-my-tweaks-below-using-ssh" class="anchor" aria-hidden="true" href="#want-to-get-pico-8-running-on-the-retro-cm3--follow-the-instructions-available-in-the-link-below-and-with-my-tweaks-below-using-ssh"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Want to get Pico-8 running on the Retro-CM3?  Follow the instructions available in the link below and with my tweaks below using SSH.</h1>
+<p><a href="https://sinisterspatula.github.io/RetroflagGpiGuides/pico8/pico8" rel="nofollow">https://sinisterspatula.github.io/RetroflagGpiGuides/pico8/pico8</a></p>
+<p>Under the Install Pico-8 section, you can skip steps 5 to 11 and just copy the sdl_controllers.txt from the releases section of this github to /home/pi/pico-8 folder.</p>
+<p>Under the Add PICO-8 to the Emulationstation menu section, es_systems.cfg is actually located at /etc/emulationstation in the retropie image provided here.  I also made a change to the es_systems.cfg and added the following instead of what was shown in the instructions:</p>
+<pre><code>&lt;system&gt;
+   &lt;name&gt;pico8&lt;/name&gt;
+   &lt;fullname&gt;PICO-8&lt;/fullname&gt;
+   &lt;path&gt;/home/pi/pico-8&lt;/path&gt;
+   &lt;extension&gt;.sh .SH&lt;/extension&gt;
+   &lt;command&gt;/opt/retropie/supplementary/runcommand/runcommand.sh 0 "%ROM%"&lt;/command&gt;
+   &lt;platform&gt;pico8&lt;/platform&gt;
+   &lt;theme&gt;pico8&lt;/theme&gt;
+&lt;/system&gt;
+</code></pre>
+<p>And loaded 3 custom shell scripts (.sh files) into /home/pi/pico-8 folder.  The purpose of each file is for different volume levels.  You can find the custom scripts in the releases section of this github.</p>
+<p>The User Manual is available from the creator's google drive at <a href="https://drive.google.com/open?id=1vXOQh2Tf3WvNB2zH0UrLiWtqS37SApLm" rel="nofollow">https://drive.google.com/open?id=1vXOQh2Tf3WvNB2zH0UrLiWtqS37SApLm</a> and also in this github (Retro-CM3 User manual - 副本.docx).
+Enjoy!</p>
+
+Like my work on this?  Want to say thank you?  Buy me a cup of tea.
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="XDSGLE5G3PDNC" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</article>
+</body></html>
