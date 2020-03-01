@@ -1,0 +1,14 @@
+[Unit]
+Description=Show custom splashscreen
+DefaultDependencies=no
+Before=local-fs-pre.target
+Wants=local-fs-pre.target
+ConditionPathExists=/opt/retropie/supplementary/splashscreen/asplashscreen.sh
+
+[Service]
+Type=oneshot
+ExecStart=/opt/retropie/supplementary/splashscreen/asplashscreen.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=sysinit.target
