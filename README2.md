@@ -12,7 +12,7 @@ Known Issues
 -  Image does not include the separate CPS 1,2,and 3 EmulationStation setups.  They all just use the lr-fbneo emulator. (Fixed!)
 -  lr-fbneo is not installed by default.  Can be installed through the Retropie-setup menu.  Will need to be connected to wifi for this to complete. (Fixed!)
 -  The auto resize function does not use all of the rest of the available space on the SD card so some space is wasted.  Can be easily reclaimed by using MiniTool Partition Wizard - Free Edition after the expansion process has completed (Hint: After first successful boot into emulationstation interface).  If you have a way to improve this, please feel free to provide code or script suggestions.
-- splashscreen no longer works after RetroPie-Setup script update in RetroPie Setup.  To fix this, Using a sftp client, just copy the asplashscreen.sh file in this github to /opt/retropie/supplementary/splashscreen, then copy asplashscreen.service in this github to /etc/systemd/system/asplashscreen.service, then from a terminal client (ex. putty) type in sudo systemctl daemon-reload, then reboot the device.
+- splashscreen no longer works after RetroPie-Setup script update in RetroPie Setup.  To fix this, Using a sftp client, just copy the asplashscreen.sh file in this github to /opt/retropie/supplementary/splashscreen/, then copy asplashscreen.service in this github to /etc/systemd/system/, then from a terminal client (ex. putty) type in sudo systemctl daemon-reload, then reboot the device.
 
 #  Instructions
 -  Windows users:
