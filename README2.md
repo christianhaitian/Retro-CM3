@@ -5,6 +5,7 @@ In addition to 1st Release tweaks:
 -  SSH, SFTP and Samba are disabled by default even after enabling wireless.  This is to secure the system when wifi is enabled for retroachievements.
 -  Added ability to Enable and Disable SSH and Samba services from Retropie menu.  Look for green thumbs up and red thumbs down.
 -  Added custom systam splash screens when launching roms in various emulators.  Thanks to ehettervik (https://github.com/ehettervik/es-runcommand-splash)
+-  Included Pico-8 setup and menu option.  Just add your licensed Pico-8 files to /home/pi/pico-8 via SSH.  Then go to Pico-8 menu from Emulationstation and launch one of the Pico 8 options based on audio volume level you prefer.
 -  New Donkey Kong welcome splashscreen.  Thanks to carolinashakes (https://www.reddit.com/r/RetroPie/comments/405b6c/new_retropie_splash_screen_feel_free_to_use/)
 
 Known Issues
